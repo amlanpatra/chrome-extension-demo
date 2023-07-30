@@ -1,0 +1,14 @@
+.App {
+  /* this css makes the image fullscreen in windows
+   as well as mobile. Though the image is cropped */
+  height: 100vh;
+  background-size: cover;
+  background-position : center center;
+  background-repeat : no-repeat
+}
+
+* {
+  margin : 0;
+  padding: 0;
+  box-sizing: border-box;
+}
